@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS 5-6</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body style='background-color:black'>
+  <div class="container" style='min-width:800px'>
+    <div id="timerBox" class='text-center'>
+      <div class="main-counters">
+        <span class="main-timer text-danger" style='font-size:100px'>00:00:00</span><span class="miliSeconds text-danger" style='font-size:100px'>.000</span>
+      </div>
+      <div class="row" style='margin-bottom:20px'>
+        <div class='col-xs-2 col-xs-offset-3'>
+          <input type="button" data-action='start' value="Start" class='btn btn-lg btn-block btn-default' style='font-size:30px'>
+        </div>
+        <div class='col-xs-2'>
+          <input type="button" data-action='split' value="Split" class='btn btn-lg btn-block btn-default' style='font-size:30px'>
+        </div>
+        <div class='col-xs-2'>
+          <input type="button" data-action='reset' value="Reset" class='btn btn-lg btn-block btn-default' style='font-size:30px'>
+        </div>
+      </div>
+      <div id="timingBox" style='font-size:40px; line-height:30px; color:green'>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
